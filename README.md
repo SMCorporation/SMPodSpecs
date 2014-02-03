@@ -1,0 +1,4 @@
+SMPodSpecs
+==========
+
+SMCorp Pods
