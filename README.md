@@ -1,4 +1,3 @@
 SMPodSpecs
 ==========
-
-Serg And Max pods
+SMCorp Pods
