@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.authors      = { "Max Kuznetsov" => "maksjago@gmail.com", "Sergey Pirogov" => "s.pirogov.dev@gmail.com" }
   s.source       = { :git => "https://github.com/SMCorporation/SMCarousel.git", :tag => "0.0.1" }
 
-
-  s.source_files  = 'SMCarouselProj/Code/**/*.{h,m,xib}'
-  s.requires_arc = true
+  s.source_files  = 'SMCarouselProj/Code/**/*.{h,m}'
+  s.resources     = 'SMCarouselProj/Code/**/*.{xib}'
+  s.requires_arc  = true
 
 end
