@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SMDataDiller"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.platform     = :ios, "6.1" 
   s.summary      = "Diller of data for Table Views (by S&M)"
   s.homepage     = "https://github.com/SMCorporation/SMDataDiller"
