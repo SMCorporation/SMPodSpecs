@@ -21,6 +21,5 @@ Pod::Spec.new do |s|
   s.public_header_files = 'SMBottomRefreshControl/KoaPullToRefresh/*.h'
   s.dependency 'FontAwesome+iOS'
 
-  s.preserve_paths  = 'Demo'
   s.requires_arc = true
 end
