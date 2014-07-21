@@ -17,8 +17,8 @@ Pod::Spec.new do |s|
 
   s.frameworks   = 'QuartzCore'
   
-  s.source_files = 'KoaPullToRefresh/*.{h,m}'
-  s.public_header_files = 'KoaPullToRefresh/*.h'
+  s.source_files = 'SMBottomRefreshControl/KoaPullToRefresh/**/*.{h,m}'
+  s.public_header_files = 'SMBottomRefreshControl/KoaPullToRefresh/*.h'
   s.dependency 'FontAwesome+iOS'
 
   s.preserve_paths  = 'Demo'
