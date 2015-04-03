@@ -13,9 +13,7 @@ Pod::Spec.new do |s|
   s.resources     = 'SMCarouselProj/Code/**/*.{xib}'
   s.requires_arc  = true
 
-  #s.subspec = 'SMDataDiller'
-  #s.default_subspecs = 'SMDataDiller'
-  s.dependency "SMDataDiller", :git => "https://github.com/SMCorporation/SMDataDiller" 
-
-#:podspec => "https://github.com/SMCorporation/SMPodSpecs/blob/master/SMCarousel/0.0.1/SMCarousel.podspec"
+  s.subspec 'DataDiller' do |os|
+    os.dependency 'SMDataDiller'
+  end  
 end
