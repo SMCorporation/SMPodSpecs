@@ -14,5 +14,6 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   #s.subspec = 'SMDataDiller'
-  s.default_subspecs = 'SMDataDiller'
+  #s.default_subspecs = 'SMDataDiller'
+  s.dependency = 'SMDataDiller', :podspec => 'SMPodSpecs/SMCarousel/0.0.1/SMCarousel.podspec'
 end
