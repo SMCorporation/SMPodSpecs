@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
   s.resources     = 'SMCarouselProj/Code/**/*.{xib}'
   s.requires_arc  = true
 
+  s.subspec = 'SMDataDiller'
+
 end
