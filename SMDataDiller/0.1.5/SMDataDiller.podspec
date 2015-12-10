@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SMDataDiller"
-  s.version      = "0.1.4"
+  s.version      = "0.1.5"
   s.platform     = :ios, "7"
   s.tvos.deployment_target = '9.0' 
   s.summary      = "Diller of data for Table Views (by S&M)"
