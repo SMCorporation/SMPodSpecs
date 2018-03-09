@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.social_media_url      = "https://twitter.com/Ceecirno"
   s.platform              = :ios 
   s.ios.deployment_target = 8.0
-  s.source                = { :git => "https://github.com/SMCorporation/PFColorHash", :tag => "v#{s.version.to_s}" }
+  s.source                = { :git => "https://github.com/SMCorporation/PFColorHash", :tag => s.version.to_s }
   s.source_files          = "Class/*.swift"
   s.requires_arc          = true
 end
