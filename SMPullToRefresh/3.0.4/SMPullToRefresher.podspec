@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.author             = "Yalantis"
   s.ios.deployment_target = "8.0"
 
-  s.source       = { :git => "https://github.com/SMCorporation/PullToRefresh.git", :tag => s.version }
+  s.source       = { :git => "https://github.com/SMCorporation/PullToRefresh.git", :tag => s.version.to_s }
   s.source_files = "PullToRefresh/*.swift"
   s.module_name  = "PullToRefresh"
 
