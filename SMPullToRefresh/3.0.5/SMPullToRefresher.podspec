@@ -3,9 +3,9 @@ Pod::Spec.new do |s|
   s.name         = "SMPullToRefresher"
   s.version      = "3.0.5"
   s.license      = { :type => "MIT", :file => "LICENSE" }
-  s.author             = "Yalantis"
+  s.author             = "SMPullToRefresher"
   s.ios.deployment_target = "8.0"
-  s.summary      = "PullToRefresher"  
+  s.summary      = "SMPullToRefresher"  
   s.homepage     = "https://github.com/SMCorporation/"
   s.swift_version = "3.0"
   
