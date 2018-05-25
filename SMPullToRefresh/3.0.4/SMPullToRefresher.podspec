@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SMPullToRefresher"
-  s.version      = "3.0.3"
+  s.version      = "3.0.4"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author             = "Yalantis"
   s.ios.deployment_target = "8.0"
